@@ -126,3 +126,23 @@ This project demonstrates Git version control using:
 - `.gitignore`
 - Git tags
 - Markdown documentation
+
+## 12. Feature Branch Workflow
+
+This project uses a feature branch to develop changes separately from the `dev` and `main` branches.
+
+The workflow is:
+
+```text
+feature/git-documentation
+          ↓
+       Pull Request
+          ↓
+          dev
+          ↓
+       Pull Request
+          ↓
+         main
+```
+
+Using a feature branch keeps development work isolated and allows the changes to be reviewed through a Pull Request before merging.
